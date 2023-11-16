@@ -25,7 +25,6 @@ class ImcResultadoActivity : AppCompatActivity() {
         tituloHeight = findViewById(R.id.tituloHeight)
         textHeightR = findViewById(R.id.textHeightR)
         textExplicacion = findViewById(R.id.textExplicacion)
-        //   colorTitulo = findViewById(R.id.tituloPeso)
     }
 
     private fun initUI() {
@@ -36,9 +35,6 @@ class ImcResultadoActivity : AppCompatActivity() {
         val desc =
             intent.extras?.getString("Descripción").orEmpty()
         textExplicacion.text = desc
-        //  val color =
-        //   intent.extras?.getString("Color").orEmpty()
-        //   colorTitulo.text = color
 
     }
 

@@ -161,7 +161,6 @@ class ImcCalculatorActivity : AppCompatActivity() {
         intentA.putExtra("Título", titulo)
         intentA.putExtra("Descripción", descripcion)
         intentA.putExtra("Resultado", res)
-        //intentGA.putExtra("Color" , color)
         startActivity(intentA)
     }
 }
